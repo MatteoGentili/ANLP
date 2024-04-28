@@ -1,0 +1,6 @@
+Model,Accuracy,F1-score,Best Parameters
+SGDClassifier,0.6944444444444445,0.6157407407407408,"{'alpha': 1.0, 'loss': 'log_loss'}"
+LogisticRegression,0.6666666666666666,0.5833333333333334,{'C': 1000}
+RidgeClassifier,0.6111111111111112,0.5046296296296297,{'alpha': 0.01}
+ExtraTreesClassifier,0.5,0.4305555555555555,"{'max_depth': 10, 'n_estimators': 200}"
+KNeighborsClassifier,0.638888888888889,0.5462962962962963,"{'n_neighbors': 7, 'weights': 'distance'}"
